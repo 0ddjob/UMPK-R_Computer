@@ -1,5 +1,7 @@
-# УМПК-Р Computer
-Information about the Soviet Ukrainian computer based on the Soviet homebrew 8080-based computer called the [РАДИО-86РК](https://github.com/skiselev/radio-86rk).  My computer doesn't work so I need to troubleshoot, hence this work.<br>
+# УМПК-Р (UMPK-R) Computer
+Information about the Soviet Ukrainian computer based on the Soviet homebrew computer called the [РАДИО-86РК](https://github.com/skiselev/radio-86rk).  This computer utilised the Soviet equivalent of the Intel 8080A called the КР580ВМ80А.<br>
+
+My computer doesn't work so I need to troubleshoot, hence this translation work.  The Soviets were very good in including schematics & documentation how the computer works.<br>
 
 ![Image of my УМПК-Р 32](UMPK-R_32.jpg)
 
