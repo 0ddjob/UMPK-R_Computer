@@ -13,10 +13,11 @@ There were quite a few industrially produced clones of the RK design so understa
 - [УМПК-Р (UMPK-R): Part 3 (Video output troubleshooting continues)](https://youtu.be/vZf2vCqavNA)
 
 ## English Documentation
-I have done a partial translation (thanks to Grok) of the Operation Manual - original scanned Russian, my cleaned-up Russian and the translated English manuals can be found here.  There are three file types:
+I have done a partial translation (thanks to Grok) of the Operation Manual - original scanned Russian, my cleaned-up Russian and the translated English manuals can be found here.  There are four file types:
+- Apple Pages (native)
 - PDF
-- Apple Pages
 - Rich Text Format
+- MS Word
 
 Note that there may be errors in my cleaned-up Russian copy ... some words in the scanned manual disappeared into the page binding!<br>
 
@@ -31,6 +32,9 @@ In the English translation I have kept the Soviet/Russian part identifiers rathe
 The scanned Russian manual includes the tables & diagrams referred to in the translation.  It also includes a map of the parts on the motherboard.<br>
 
 I have also included some very-roughly machine translated (Google image) pages from the original Soviet RADIO magazine that explain the RK's functionality - I hope to come back and do better translations.<br>
+
+## Memory Layout
+![RAM layout](УМПК-Р_Memory_Layout_ENG.jpg)
 
 ## Map of ICs
 ![Main ICs on the motherboard](UMPK-R_circuit_layout.jpg)

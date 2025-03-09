@@ -2,11 +2,181 @@
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 AmericanTypewriter-Bold;\f1\fnil\fcharset0 AmericanTypewriter;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
 {\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
 \paperw11905\paperh16837\margl1133\margr1133\margb1133\margt1133
 \deftab720
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b\fs62 \cf2 \up0 \nosupersub \ulnone Amateur Radio Kit\
+Microprocessor \uc0\u1059 \u1052 \u1055 \u1050 -\u1056  \
+\
+OPERATION MANUAL\
 \pard\pardeftab720\qj\partightenfactor0
 
-\f0\b\fs22 \cf2 \up0 \nosupersub \ul \ulc2 5. Structure and Operation of the Component Parts of \uc0\u1059 \u1052 \u1055 \u1050 -\u1056 \
+\fs22 \cf2 \ul \ulc2 \
+\
+\
+\page Introduction\
+\pard\pardeftab720\qj\partightenfactor0
+
+\f1\b0 \cf2 \ulnone This operating manual is intended for studying the operation of the microprocessor amateur radio kit.\
+\
+The operating manual provides general information about the microprocessor amateur radio kit, technical specifications, purpose, operating principle, and procedure.\
+\
+For operating the microprocessor amateur radio kit, a household television set is used as a display, and a user's mono cassette recorder is used as an external storage device. When using a colour television receiver, there may be a degradation in the image quality of characters due to permissible beam misalignment at the edges of the screen, which is typical for colour televisions.\
+\pard\pardeftab720\qj\partightenfactor0
+
+\f0\b \cf2 \ul \ulc2 \
+ATTENTION!\
+\pard\pardeftab720\qj\partightenfactor0
+
+\f1\b0 \cf2 \ulnone Due to the continuous improvement of the \uc0\u1059 \u1052 \u1055 \u1050 -\u1056 , the electrical circuit and design of the product may undergo minor changes, which are reflected in the operating manual.\
+\pard\pardeftab720\qj\partightenfactor0
+
+\f0\b \cf2 \ul \ulc2 \
+\page Additional Information for the English Translation\
+\pard\pardeftab720\qj\partightenfactor0
+
+\f1\b0 \cf2 \ulnone A fresh Russian language copy of the manual was first generated from the original scanned manual.  This was lightly edited to fix obvious errors and some guesses were made when words disappeared into the binding.\
+\
+Machine translation (Grok & ChatGPT) was then used to generate an initial English-language version of the manual, which you are presently reading.  Likely still a work in progress.\
+\
+This was then further edited and enhanced with additional information to help with troubleshooting.\
+\
+Why go to this effort?\
+\
+Well, my machine doesn\'92t work so I want to fix it, or at least make a decent attempt to.  Also, this machine is based upon the home brew/DIY \uc0\u1056 \u1040 \u1044 \u1048 \u1054 -86\u1056 \u1050  computer.  There are actually quite a few industrially produced versions of this design so I hope that by having a general understanding of how this machine works, other machines may also be repaired.\
+\
+\pard\pardeftab720\qj\partightenfactor0
+
+\f0\b \cf2 \ul \ulc2 Conventions Used\
+\pard\tx20\tx180\pardeftab720\li180\fi-180\qj\partightenfactor0
+\ls1\ilvl0
+\f1\b0 \cf2 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\up0 \nosupersub \ulnone Soviet part identifiers are shown in the original Cyrillic to avoid confusion.  \
+\ls1\ilvl0\up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\up0 \nosupersub \ulnone Equivalent Western part identifiers are included to aid with finding pinouts & data sheets as well as sourcings.\
+\ls1\ilvl0\up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\up0 \nosupersub \ulnone Note that Soviet parts use 2.5mm pin pitch and not the Western 2.54mm/0.1\'94 pitch - this doesn\'92t really matter on smaller parts but will cause issues with fitting 40-pin parts.\
+\pard\pardeftab720\qj\partightenfactor0
+
+\f0\b \cf2 \ul \ulc2 \
+What Does \uc0\u1059 \u1052 \u1055 \u1050 -\u1056  Mean?\
+\pard\pardeftab720\qj\partightenfactor0
+
+\f1\b0 \cf2 \ulnone The machine originated from the Ukrainian SSR so it is tempting to think it might stand for \
+\
+\pard\pardeftab720\qc\partightenfactor0
+\cf2 \uc0\u1059 \u1082 \u1088 \u1072 \u1080 \u1085 \u1089 \u1082 \u1080 \u1081  \u1052 \u1080 \u1082 \u1088 \u1086 \u1055 \u1088 \u1086 \u1094 \u1077 \u1089 \u1089 \u1086 \u1088 \u1085 \u1099 \u1081  \u1050 \u1086 \u1084 \u1087 \u1100 \u1102 \u1090 \u1077 \u1088  
+\fs20 - \uc0\u1056 \u1072 \u1076 \u1080 \u1086 
+\fs22 \
+Ukrainian Micro Processor Computer - Radio\
+\pard\pardeftab720\qj\partightenfactor0
+\cf2 \
+However the Soviets were aPPIrently wary about any sort of nationalistic naming so it\'92s most likely stands for\
+\
+\pard\pardeftab720\qc\partightenfactor0
+\cf2 \uc0\u1059 \u1085 \u1080 \u1074 \u1077 \u1088 \u1089 \u1072 \u1083 \u1100 \u1085 \u1099 \u1081  \u1052 \u1080 \u1082 \u1088 \u1086 \u1055 \u1088 \u1086 \u1094 \u1077 \u1089 \u1089 \u1086 \u1088 \u1085 \u1099 \u1081  \u1050 \u1086 \u1084 \u1087 \u1083 \u1077 \u1082 \u1090  - \u1056 \u1072 \u1076 \u1080 \u1086 \
+Universal MicroProcessor Kit - Radio\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+Brett Hallen, March 2025\
+Port Macquarie, Australia\
+www.youtube.com/@Brfff\
+\page \pard\pardeftab720\partightenfactor0
+
+\f0\b \cf2 \ul \ulc2 1. Purpose\
+\pard\pardeftab720\qj\partightenfactor0
+
+\f1\b0 \cf2 \ulnone \
+\pard\pardeftab720\qj\partightenfactor0
+
+\f0\b \cf2 \ul \ulc2 1.1 Overview\
+\pard\pardeftab720\qj\partightenfactor0
+
+\f1\b0 \cf2 \ulnone The microprocessor amateur radio kit \uc0\u1059 \u1052 \u1055 \u1050 -\u1056  (hereinafter referred to as \u1059 \u1052 \u1055 \u1050 -\u1056 ) is designed to familiarise the user with the basics of computer technology, study programming methods in the BASIC language and machine code, develop practical skills in working with a microcomputer and external devices connected to it, developed by the user.\
+\
+Depending on the programs developed or acquired by the user, the \uc0\u1059 \u1052 \u1055 \u1050 -\u1056  can be used for:\
+\pard\tx20\tx180\pardeftab720\li180\fi-180\qj\partightenfactor0
+\ls2\ilvl0\cf2 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\up0 \nosupersub \ulnone controlling amateur radio constructions;\
+\ls2\ilvl0\up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\up0 \nosupersub \ulnone electronic television games;\
+\ls2\ilvl0\up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\up0 \nosupersub \ulnone various types of calculations, both technical and economic;\
+\ls2\ilvl0\up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\up0 \nosupersub \ulnone performing graphical work;\
+\ls2\ilvl0\up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\up0 \nosupersub \ulnone creating home archives or catalogs on cassette tapes;\
+\ls2\ilvl0\up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\up0 \nosupersub \ulnone programmatic control of household electronic devices, and so on.\
+\pard\pardeftab720\qj\partightenfactor0
+\cf2 \
+\pard\pardeftab720\qj\partightenfactor0
+
+\f0\b \cf2 \ul \ulc2 1.2 Terms Of Use\
+\pard\pardeftab720\qj\partightenfactor0
+
+\f1\b0 \cf2 \ulnone 1. Ambient air temperature from 10 to 35\'b0C;\
+2. Relative humidity of ambient air up to 80% at 25\'b0C and lower temperatures without moisture condensation;\
+3. Atmospheric pressure from 84 to 106.7kPa.\
+1.3 Climatic version - UHL 4.2 according to GOST I5150-69 (\uc0\u1043 \u1054 \u1057 \u1058  I5150-69)\
+\
+\
+\pard\pardeftab720\qj\partightenfactor0
+
+\f0\b \cf2 \ul \ulc2 \page 4. Device And Operation of \uc0\u1059 \u1052 \u1055 \u1050 -\u1056 \
+\pard\pardeftab720\qj\partightenfactor0
+
+\f1\b0 \cf2 \ulnone \
+The \uc0\u1059 \u1052 \u1055 \u1050 -\u1056  structurally consists of a computer and a power supply unit, connected to each other by a power supply cable, and functioning as complete standalone devices.\
+\
+The \uc0\u1059 \u1052 \u1055 \u1050 -\u1056  is built based on the K580 microprocessor series. The functional electrical diagram of the \u1059 \u1052 \u1055 \u1050 -\u1056  is shown in Figure 1.\
+\
+The main component of the circuit is the KR580VM80A (Intel 8080A) microprocessor. For synchronising the operation of the \uc0\u1059 \u1052 \u1055 \u1050 -\u1056 , a clock generator based on the KR580GF24 (Intel 8224) chip is used.\
+\
+The memory of the \uc0\u1059 \u1052 \u1055 \u1050 -\u1056  consists of:\
+\pard\tx20\tx180\pardeftab720\li180\fi-180\qj\partightenfactor0
+\ls3\ilvl0\cf2 \up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\up0 \nosupersub \ulnone a read-only memory (ROM) with a capacity of 2KB, implemented on the \uc0\u1050 573\u1056 \u1060 5 or \u1050 573\u1056 \u1060 2 chip, containing the MONITOR control program;\
+\ls3\ilvl0\up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\up0 \nosupersub \ulnone a character generator ROM with a capacity of 2KB, implemented on the \uc0\u1050 573\u1056 \u1060 2 or \u1050 573\u1056 \u1060 5 chip;\
+\ls3\ilvl0\up0 \nosupersub \ulnone {\listtext	\uc0\u8226 	}\up0 \nosupersub \ulnone a random-access memory (RAM) with a capacity of16 KB for the \uc0\u1059 \u1052 \u1055 \u1050 -\u1056  16 version, implemented on the \u1050 \u1056 565\u1056 \u1059 5\u1044 3 or \u1050 \u1056 565\u1056 \u1059 5\u1044 4 chips, and 32KB for the \u1059 \u1052 \u1055 \u1050 -\u1056  32 version, implemented on the \u1050 \u1056 565\u1056 \u1059 5\u1044 1 or \u1050 \u1056 565\u1056 \u1059 5\u1044 2 chips.\
+\pard\pardeftab720\qj\partightenfactor0
+\cf2 \
+The keyboard and external storage device (the user\'92s cassette recorder) are connected to the \uc0\u1059 \u1052 \u1055 \u1050 -\u1056  processor via a programmable parallel interface (PPI) chip, the KR580VV55A (Intel 8255A). An additional programmable parallel interface chip, also the KR580VV55A, is intended for connecting external devices to the \u1059 \u1052 \u1055 \u1050 -\u1056 .\
+\
+The video signal is generated by the display controller \uc0\u1050 \u1056 580\u1041 \u1043 75 (Intel 8275). The information displayed on the screen area of the RAM is transmitted to the controller using direct memory access (DMA). To manage this process, a large integrated circuit (IC) \u1050 \u1056 580\u1042 \u1058 57 (Intel 8257) is used.\
+\
+The image on the television screen is formed by illuminating individual points of the television raster with a signal from the modulator output \uc0\u1059 \u1052 \u1055 \u1050 -\u1056 . A 6x8 dot matrix is used to display characters.\
+\
+The video signal is formed from signals from the display controller \uc0\u1050 \u1056 580\u1041 \u1043 75 and the signals of the displayed character from the output of the shift register on the \u1050 155\u1048 \u1056 13, where the character generator's ROM information is loaded in parallel format.\
+\
+Figure 2 shows the memory address distribution of the \uc0\u1059 \u1052 \u1055 \u1050 -\u1056  with a RAM size of 16KB (\u1059 \u1052 \u1055 \u1050 -\u1056  I6 version) and 32KB (\u1059 \u1052 \u1055 \u1050 -\u1056  32 version). To display a character at a specific position on the screen, the microprocessor writes the character code to the corresponding cell in the screen area of the RAM.\
+\
+In order for the image to remain on the television screen, it is necessary to periodically output all the codes from the screen area sequentially to the address inputs of the character generator's ROM. This function is performed by the display controller \uc0\u1050 \u1056 580\u1041 \u1043 75.\
+\
+The display controller has two internal buffer registers, each of which can store up to 30 8-bit character codes.\
+\
+This organisation of the controller minimises the downtime of the microprocessor because the memory is occupied with exchanging data with the display controller. During operation, while the characters stored in one buffer register are sequentially displayed on the screen, the codes of the next characters are written to the other buffer register in DMA mode from the screen area of the RAM. After the display process from one buffer register is completed, the process of displaying from the other register begins.\
+\
+Since the transfer of characters from the screen area of the RAM to the display controller\'92s buffer registers is done using DMA, the data in this mode is transferred directly from the RAM to the display controller, bypassing the microprocessor. The \uc0\u1050 \u1056 580\u1042 \u1058 57 IC is used to organise such transfers. In DMA mode, it independently generates signals on the address and control buses.\
+\
+The interaction between the display controllers, DMA, and the microprocessor occurs as follows: to display the next line on the screen, the display controller generates a \'93DATA REQUEST" signal. In response to this signal, the DMA controller outputs a "DMA REQUEST" signal to the microprocessor's input, which then places its buses in a high-impedance state and issues a "DMA ACKNOWLEDGEMENT" signal. In response, the DMA controller sets the address codes for the screen area cells on the address bus, issues a "READ" signal on the control bus to transfer each byte, and sets the \'93DATA ACKNOWLEDGMENT" signal on the display controller\'92s output. Using these signals, a byte from the data bus is written to the internal buffer register of the display controller.\
+\
+Since the process of transferring data to the screen area of the RAM to the display controller is regular, and the RAM access period does not exceed 2\'b5s, DMA cycles are used for regenerating dynamic RAM. With a pulse duration of 1-1.5\'b5s, the microprocessor, upon starting to execute the control program (the MONITOR), manages to reconfigure the display and DMA controllers, thus resuming the memory regeneration process. Otherwise, the information stored in the RAM would be lost.\
+\
+The control bus consists of two data transfer lines: "READ" and "WRITE."\
+\
+Access to the controller ports is done in the same way as to memory cells, i.e. the addresses of the ports and memory cells are in the same address space.\
+\
+The computer is powered by a power supply unit providing voltages of -5V, +5V, and +12V, and is implemented as a separate device.\
+\
+\page \pard\pardeftab720\qc\partightenfactor0
+
+\f0\b \cf2 \ul \ulc2 MEMORY ALLOCATION IN \uc0\u1059 \u1052 \u1055 \u1050 -\u1056  FOR RAM \
+WITH 16KB AND 32KB\
+\pard\pardeftab720\qj\partightenfactor0
+
+\f1\b0 \cf2 \ulnone \
+ \
+\
+\
+\pard\pardeftab720\qj\partightenfactor0
+
+\f0\b \cf2 \ul \ulc2 \page 5. Structure and Operation of the Component Parts of \uc0\u1059 \u1052 \u1055 \u1050 -\u1056 \
 \pard\pardeftab720\qj\partightenfactor0
 
 \f1\b0 \cf2 \ulnone \
@@ -53,16 +223,17 @@ For the WE inputs of memory elements D20 to D23 and D25 to D28, this signal is r
 The "WRITE" signal from the output of element D6.4 is also output to a connector for connecting external devices XS1. The "Read" signal is formed at the output of element D6.1, where the /MEMW signal from the DMA controller output (D2), which is active during the reading of a byte from the screen RAM area for the display controller, and the DBIN signal  (pin 17) from the microprocessor D5 output, which is active during data reading, are supplied.\
 \
 Resistor R5 is used to form a "logical 1" at the output 2 of D6.1 when the output 4 of element D2 is in a high-impedance state. The "READ" signal, similar to the "WRITE" signal, is output to a connector for external devices XS1 from the output of element D6.1.\
-\uc0\u8232 
-\f0\b \ul 5.1.1.3 Address Decoding
+\
+\pard\pardeftab720\qj\partightenfactor0
+
+\f0\b \cf2 \ul \ulc2 5.1.1.3 Address Decoding
 \f1\b0 \ulnone \
 The address decoder is implemented using microcircuits D9, D4.3, D6.3, and D10.2. Depending on the state of the address bus lines A13 to A15, a "logical 0" level is formed at one of the outputs of the D9 microcircuit, allowing determination of which group of memory cells is being accessed. Thus, the entire address space of the microprocessor (64KB) is divided into eight blocks of 8KB each. At the outputs of elements D6.3 and D10.2, when accessing RAM cells with addresses 0000H to 3FFFH and 4000H to 7FFFH respectively, a "logical 1" level is formed. Depending on the version (\uc0\u1059 \u1052 \u1055 \u1050 -\u1056  16 or \u1059 \u1052 \u1055 \u1050 -\u1056  32) and the RAM microcircuits used, three jumpers are installed between contact pads 1 to 9, as shown in Table 1 on Figure 4. Using these jumpers and signals from elements D6.3 and D10.2, the necessary A7 and /CAS signals are formed for the RAM microcircuits.\
 \
 The signals from outputs 4 to 7 of the D9 decoder (pins 7, 9, 10, 11) are used to select one of the integrated circuits: D24 (8255), D14 (8255), D8 (8275), D2 (8257). The signal from the output, in addition to selecting the DMA controller D2, is also used to select the ROM microcircuit D19. This is possible because only information reading is performed from the ROM, while information is only written to the DMA controller during initial programming. Since, after a reset, the microprocessor begins executing the program from the command located at address 0000H, and the ROM storing the MONITOR control program is assigned addresses starting from F800H, an initial startup block has been introduced into the computer. At the output 5 of the D13.1 trigger, at the moment the "RESET" signal arrives, a "logical 0" appears which disables the operation of the D9 decoder and, through element D4.3, is applied to the CS input of the ROM microcircuit D19. This ensures the reading of the first command from the ROM, a command for an unconditional jump to the start of the MONITOR. After executing this command, the address bus will display the address code of the next MONITOR command, the most significant bit of which is "1". The appearance of a "logical 1" on the A15 line of the address bus switches the D13.1 trigger back to its initial state, as a result of which address decoding subsequently occurs in the usual manner.\
 \
-\pard\pardeftab720\qj\partightenfactor0
 
-\f0\b \cf2 \ul \ulc2 5.1.1.4 RAM\
+\f0\b \ul 5.1.1.4 RAM\
 \pard\pardeftab720\qj\partightenfactor0
 
 \f1\b0 \cf2 \ulnone The RAM of the \uc0\u1059 \u1052 \u1055 \u1050 -\u1056  is implemented using dynamic-type memory microcircuits of the \u1050 \u1056 565 series (D20 to D23, D25 to D28).\
@@ -75,7 +246,7 @@ The address code is loaded into the address register of the microcircuits throug
 \
 To generate signals controlling the operation of dynamic memory, a module is used, assembled on the \uc0\u1050 155\u1048 \u1056 1 microcircuit (D15) and elements D4.4, D10.3, D10.4, D11.1, and D11.4. The OSC signal from the clock generator is fed to the C2 input of the shift register D15 (pin 9). In the absence of "READ" and "WRITE" signals on the control bus, a "logical 1" is received at the V2 input of the shift register D15 (pin 6) from element D4.4, enabling its operation in parallel data reception mode. Meanwhile, with some delay, a low level is received at the C1 input (pin 8) from the output of element D11.1, performing a parallel write of "logical 1s\'94 into the D15 register.\
 \
-When a "READ" or "WRITE" signal appears, a "logical 0" is applied to the V2 input of the D15 microcircuit, causing the shift register to switch to the information shift mode. As a result, low logical levels are sequentially established at its outputs with a delay of 62.5ns. The signals from outputs Q1 and Q2 are fed to the RAS inputs of the memory microcircuits and the control inputs V of the multiplexers D17 and D18, respectively. Element D11.4, using the low level from the Q3 output of the D15 register and the presence of RAM selection signals from the D9 decoder, forms a "logical 0" level on elements D10.3 or D10.4 for the /CAS inputs of the memory microcircuits.\
+When a "READ" or "WRITE" signal appears, a "logical 0" is applied to the V2 input of the D15 microcircuit, causing the shift register to switch to the information shift mode. As a result, low logical levels are sequentially established at its outputs with a delay of 62.5ns. The signals from outputs Q1 and Q2 are fed to the RAS inputs of the memory microcircuits and the control inputs V of the multiplexers D17 and D18, respectively. Element D11.4, using the low level from the Q3 output of the D15 register and the presence of RAM selection signals from the D9 decoder, forms a "logical 0" level on elements D10.3 or D10.4 for the \uc0\u8232 /CAS inputs of the memory microcircuits.\
 \
 Resistors R23 to R32 and R34 are used to improve the shape of the signals applied to the inputs of the memory microcircuits.\
 \
@@ -97,13 +268,13 @@ In the first cycle of each DMA operation, the eight most significant bits of the
 
 \f1\b0 \cf2 \ulnone The display controller \uc0\u1050 \u1056 580B\u1043 75 (D8), due to its appropriate configuration, generates frame and line sync pulses directly at the HRTC and VRTC outputs. Since the image at the edges of television receiver screen is less sharp and often extends beyond their boundaries, it is darkened in these areas programmatically, i.e., by writing the "Space" character codes into the corresponding cells of the screen RAM area, which is equivalent to forming blanking intervals in the video signal.\
 \
-Alphanumeric information is displayed on the screen in 25 lines, with 64 characters per line. Each character is formed by a 6 \'d7 8 dot matrix. The character lines are separated by two darkened television raster lines.\
+Alphanumeric information is displayed on the screen in 25 lines, with 64 characters per line. Each character is formed by a 6x8 dot matrix. The character lines are separated by two darkened television raster lines.\
 \
-In one raster line, the display time of which is 48\'b5s, 6 \'d7 64 = 384 dots can be illuminated. Therefore, the frequency of the pulses supplied to the C input of the shift register D16 must be 8MHz. This frequency is obtained by dividing the frequency from the OSC output of the clock generator D1 by two. A counter D3 is used as the frequency divider. It is also used to generate character synchronisation pulses, which are supplied to the CCLK input of the display controller D8, by dividing the clock generator frequency by 12. The period of these pulses, equal to the time it takes for the CRT beam to traverse one character position, determines the rate at which character codes change at the CC0 to CC6 outputs of the display controller D8.\
+In one raster line, the display time of which is 48\'b5s, 6x64 = 384 dots can be illuminated. Therefore, the frequency of the pulses supplied to the C input of the shift register D16 must be 8MHz. This frequency is obtained by dividing the frequency from the OSC output of the clock generator D1 by two. A counter D3 is used as the frequency divider. It is also used to generate character synchronisation pulses, which are supplied to the CCLK input (pin 30) of the display controller D8, by dividing the clock generator frequency by 12. The period of these pulses, equal to the time it takes for the CRT beam to traverse one character position, determines the rate at which character codes change at the CC0 to CC6 outputs (pins 23-26) of the display controller D8.\
 \
 When the information about the graphical representation of the currently displayed character has been sequentially output to the Q5 output of the shift register D16, this register will transition from shift mode to the mode of receiving information about the next character under the influence of the output signal from element D4.2. This signal is used to generate a cursor positioned beneath the displayed character. A blinking underscore is used as the cursor. This type of cursor is selected by writing the corresponding code word into the internal register of the controller D8.\
 \
-During the scanning of a television line beneath a marked character, a "logical 1" periodically appears at the LTEN output of D8. At the moment the display of the marked character begins, the trigger D13.2 is switched by the output signal of element D4.2. This ensures the formation of the cursor.\
+During the scanning of a television line beneath a marked character, a "logical 1" periodically appears at the LTEN output (pin 37) of D8. At the moment the display of the marked character begins, the trigger D13.2 is switched by the output signal of element D4.2. This ensures the formation of the cursor.\
 \
 Element D4.1 generates a signal for writing information to the display controller. A "logical 0" appears at its output when there is a low level on the "Write" line of the control bus during the initialisation of the display controller, or when there is a low level at the /MEMW output of the DMA controller during the transfer of a byte from the screen RAM area.\
 \
@@ -121,7 +292,7 @@ The video signal from the adjustable resistor R22 of the emitter follower is app
 \f0\b \cf2 \ul \ulc2 5.1.1.8 Audio Output\
 \pard\pardeftab720\qj\partightenfactor0
 
-\f1\b0 \cf2 \ulnone The generation of an audio signal accompanying the pressing of any key (except for SBR, SS, and US) in the \uc0\u1059 \u1052 \u1055 \u1050 -\u1056  is carried out through the INTE output of the microprocessor and transistor VT1 to the speaker BF1, located on the keyboard device board.\
+\f1\b0 \cf2 \ulnone The generation of an audio signal accompanying the pressing of any key (except for [\uc0\u1057 \u1041 \u1056 ], [\u1057 \u1057 ], and [\u1059 \u1057 ]) in the \u1059 \u1052 \u1055 \u1050 -\u1056  is carried out through the /INTE output of the microprocessor and transistor VT1 to the speaker BF1, located on the keyboard device board.\
 \
 In the MONITOR program, a special subroutine is provided for this purpose, which can be accessed from other programs, including those written in BASIC.\
 \
@@ -141,16 +312,16 @@ The quartz oscillator of the modulator is implemented using transistor VT3 and r
 \f0\b \cf2 \ul \ulc2 5.1.1.10 External Storage\
 \pard\pardeftab720\qj\partightenfactor0
 
-\f1\b0 \cf2 \ulnone The tape recorder (external storage device) is connected to the microprocessor via lines C0 and C4 of channel C of the programmable peripheral adapter (PPA) \uc0\u1050 \u1056 580BB55\u1040  (D24). The recording of information onto the tape cassette of the external storage device is carried out through line C0 and an RC filter composed of elements R35, C6, R38, and C8. The input of information from the magnetic tape into the \u1059 \u1052 \u1055 \u1050 -\u1056  is performed via line C4 of the PPA (D24) through a hysteresis comparator based on the operational amplifier K553UD2 (D29). The adjustable resistor R39 is used to set the required waveform of the recorded information signal.\
+\f1\b0 \cf2 \ulnone The tape recorder (external storage device) is connected to the microprocessor via lines C0 and C4 of channel C of the programmable peripheral interface (PPI) \uc0\u1050 \u1056 580BB55\u1040  (D24). The recording of information onto the tape cassette of the external storage device is carried out through line C0 and an RC filter composed of elements R35, C6, R38, and C8. The input of information from the magnetic tape into the \u1059 \u1052 \u1055 \u1050 -\u1056  is performed via line C4 of the PPI (D24) through a hysteresis comparator based on the operational amplifier K553UD2 (D29). The adjustable resistor R39 is used to set the required waveform of the recorded information signal.\
 \
 \pard\pardeftab720\qj\partightenfactor0
 
 \f0\b \cf2 \ul \ulc2 5.1.1.11 Expansion Interface\
 \pard\pardeftab720\qj\partightenfactor0
 
-\f1\b0 \cf2 \ulnone The \uc0\u1059 \u1052 \u1055 \u1050 -\u1056  includes an additional PPA based on the \u1050 \u1056 580B\u1042 55 integrated circuit (D14), intended for interfacing with external devices developed by the user. According to the MONITOR program, this PPA is not configured. After receiving the "Reset" signal, all three of its channels operate in information input mode.\
+\f1\b0 \cf2 \ulnone The \uc0\u1059 \u1052 \u1055 \u1050 -\u1056  includes an additional PPI based on the \u1050 \u1056 580B\u1042 55 integrated circuit (D14), intended for interfacing with external devices developed by the user. According to the MONITOR program, this PPI is not configured. After receiving the "RESET" signal, all three of its channels operate in information input mode.\
 \
-All eight communication lines of each of the A, B, and C channels of the PPA on D14, as well as the "Read" and "Write" signals, are routed to the XS1 connector, which is intended for external devices.\
+All eight communication lines of each of the A, B, and C channels of the PPI on D14, as well as the "READ" and "WRITE" signals, are routed to the XS1 connector, which is intended for external devices.\
 \
 \pard\pardeftab720\qj\partightenfactor0
 
@@ -175,14 +346,14 @@ The codes of the MONITOR control program for the \uc0\u1059 \u1052 \u1055 \u1050
 
 \f1\b0 \cf2 \ulnone The operation of the keyboard device is based on the principle of scanning contacts of a matrix keyboard with addressable keys.\
 \
-Through the channel A lines of the PPA (chains RA0 to RA7), configured for information output, scanning pulses are sequentially supplied to diodes VD3 to VD10. The diodes protect the port lines from damage during simultaneous pressing of multiple keys.\
+Through the channel A lines of the PPI (chains RA0 to RA7), configured for information output, scanning pulses are sequentially supplied to diodes VD3 to VD10. The diodes protect the port lines from damage during simultaneous pressing of multiple keys.\
 \
-During the contact polling process, the keyboard subroutine sequentially forms a low logical level on each of the channel A lines (on the other seven lines, the levels remain high). Simultaneously, the subroutine reads and analyses the contents of channel B of the PPA (chains RB0 to RB7). If no key is pressed, high logical levels are applied to all channel B lines through resistors R6 to R13. When any key is pressed, a low level from the corresponding channel A line passes through the corresponding open diode to one of the channel B lines. The service subroutine determines the number of the pressed key and forms its corresponding seven-bit code.\
+During the contact polling process, the keyboard subroutine sequentially forms a low logical level on each of the channel A lines (on the other seven lines, the levels remain high). Simultaneously, the subroutine reads and analyses the contents of channel B of the PPI (chains RB0 to RB7). If no key is pressed, high logical levels are applied to all channel B lines through resistors R6 to R13. When any key is pressed, a low level from the corresponding channel A line passes through the corresponding open diode to one of the channel B lines. The service subroutine determines the number of the pressed key and forms its corresponding seven-bit code.\
 \
 When pressing each of the main keys, depending on whether one of the auxiliary modifier keys (\uc0\u1057 \u1057  or \u1059 \u1057 ) was pressed together with or before the main key, three different codes can be formed. In this case, special control or graphic symbols are displayed on the screen. The \
-\uc0\u1056 \u1059 \u1057 /\u1051 \u1040 \u1058  key determines which of the two alphabets (Russian or Latin) will be displayed on the screen (switching between them requires pressing it once). Closing the contacts of these three keys (\u1057 \u1057 , \u1059 \u1057  and \u1056 \u1059 \u1057 /\u1051 \u1040 \u1058 ) results in the formation of a low logical level on lines S5 to S7 of the PPA channel (chains RS5 to RS7), operating in input mode, and otherwise interpreting the main keys, which reduces their number. Noise from key contacts is eliminated programmatically. The auto-repeat mode and audible signalling of key presses in \u1059 \u1052 \u1055 \u1050 -\u1056  are also implemented programmatically, i.e., with a prolonged (more than 1 second) press of a key, an audible signal is issued without interruption.\
+\uc0\u1056 \u1059 \u1057 /\u1051 \u1040 \u1058  key determines which of the two alphabets (Russian or Latin) will be displayed on the screen (switching between them requires pressing it once). Closing the contacts of these three keys (\u1057 \u1057 , \u1059 \u1057  and \u1056 \u1059 \u1057 /\u1051 \u1040 \u1058 ) results in the formation of a low logical level on lines S5 to S7 of the PPI channel (chains RS5 to RS7), operating in input mode, and otherwise interpreting the main keys, which reduces their number. Noise from key contacts is eliminated programmatically. The auto-repeat mode and audible signalling of key presses in \u1059 \u1052 \u1055 \u1050 -\u1056  are also implemented programmatically, i.e., with a prolonged (more than 1 second) press of a key, an audible signal is issued without interruption.\
 \
-Indicators VD1 and VD2 are installed on the keyboard device board. Indicator VD1, connected to the configured output line S3 of the PPA through element D11.6 (see Figure 4) and resistor R4 (chain VRS3), signals the display of the Russian alphabet on the screen. Indicator VD2 signals the activation of \uc0\u1059 \u1052 \u1055 \u1050 -\u1056 . A capsule forming an audible signal is also installed on the keyboard device board.\
+Indicators VD1 and VD2 are installed on the keyboard device board. Indicator VD1, connected to the configured output line S3 of the PPI through element D11.6 (see Figure 4) and resistor R4 (chain VRS3), signals the display of the Russian alphabet on the screen. Indicator VD2 signals the activation of \uc0\u1059 \u1052 \u1055 \u1050 -\u1056 . A capsule forming an audible signal is also installed on the keyboard device board.\
 \
 In Table 7, the symbols (special, control, and graphic) formed by \uc0\u1059 \u1052 \u1055 \u1050 -\u1056 , their codes, and the addresses of the RAM cells of the generator (D12) with hexadecimal numbers written into them corresponding to these symbols are provided.\
 \
@@ -199,11 +370,9 @@ Film 8 with a key diagram and an image of the corresponding symbols is glued to 
 \
 When pressing the key diagram, the film 8, adhesive tape 7, and foiled Lavsan 5 bend, and contacts 6 close the printed conductors 2 and 3. To improve the contact properties and prevent oxidation of the printed circuit board in the areas of the closing conductors and contacts of the foiled Lavsan, they are coated with palladium.\
 \
-"Lavsan" is a Russian trade name for a type of polyester film, chemically known as polyethylene terephthalate (PET). It is similar to materials like Mylar in Western terminology. "\uc0\u1060 \u1086 \u1083 \u1100 \u1075 \u1080 \u1088 \u1086 \u1074 \u1072 \u1085 \u1085 \u1099 \u1081 " means "foiled" or "coated with foil," indicating that the lavsan film has a thin layer of metal foil (often aluminum) applied to it. In the context of the UMPK-R keyboard device, this refers to a metallized polyester film used in the membrane keyboard construction, where the foil provides conductive tracks or contacts for key operation.\
+"Lavsan" is a Russian trade name for a type of polyester film, chemically known as polyethylene terephthalate (PET). It is similar to materials like Mylar in Western terminology. "\uc0\u1060 \u1086 \u1083 \u1100 \u1075 \u1080 \u1088 \u1086 \u1074 \u1072 \u1085 \u1085 \u1099 \u1081 " means "foiled" or "coated with foil," indicating that the lavsan film has a thin layer of metal foil (often aluminum) applied to it. In the context of the \u1059 \u1052 \u1055 \u1050 -\u1056  keyboard device, this refers to a metallized polyester film used in the membrane keyboard construction, where the foil provides conductive tracks or contacts for key operation.\
 \
 So, in technical terms, it could be described as "metallized polyester film" or simply "foiled PET film", depending on the context. \
-\
-\
 \
 \pard\pardeftab720\qj\partightenfactor0
 
@@ -253,6 +422,7 @@ D29		\uc0\u1050 553\u1059 \u1044 2		LM301	Op. Amp.\
 \pard\pardeftab720\qj\partightenfactor0
 
 \f1\b0 \cf2 \ulnone 9-Mar-2025:		initial version\
+10-Mar-2025:	added intro, section 1, section 4, memory layout\
 \
 Brett Hallen aka The Clueless Engineer\
 www.youtube.com/@Brfff}
