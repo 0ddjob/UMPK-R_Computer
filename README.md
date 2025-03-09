@@ -1,5 +1,7 @@
 # УМПК-Р (UMPK-R) Computer
-Information about the Soviet Ukrainian computer based on the Soviet homebrew computer called the [РАДИО-86РК](https://github.com/skiselev/radio-86rk).  This computer utilised the Soviet equivalent of the Intel 8080A called the КР580ВМ80А.<br>
+Information about the Soviet Ukrainian computer based on the Soviet homebrew computer called the [РАДИО-86РК](https://github.com/skiselev/radio-86rk) (RADIO-86RK, referred to as the "RK" for the rest of this description).  This computer utilised the Soviet equivalent of the Intel 8080A called the КР580ВМ80А.<br>
+
+There were quite a few industrially produced clones of the RK design so understanding how it works can help with troubleshooting other machines.<br>
 
 My computer doesn't work so I need to troubleshoot, hence this translation work.  The Soviets were very good in including schematics & documentation how the computer works.<br>
 
@@ -20,7 +22,9 @@ Note that there may be errors in my cleaned-up Russian copy ... some words in th
 
 In the English translation I have kept the Soviet/Russian part identifiers rather than transliterate them, but I have included Western equivalent part identifiers as well.<br>
 
-The scanned Russian manual includes the tables & diagrams referred to in the translation.  It also includes a map of the parts on the motherboard.
+The scanned Russian manual includes the tables & diagrams referred to in the translation.  It also includes a map of the parts on the motherboard.<br>
+
+I have also included some very-roughly machine translated (Google image) pages from the original Soviet RADIO magazine that explain the RK's functionality - I hope to come back and do better translations.<br>
 
 ## Main ICs
 ![Main ICs on the motherboard](UMPK-R_circuit_layoyut.jpg)
