@@ -20,6 +20,8 @@ I have done a partial translation (thanks to Grok) of the Operation Manual - ori
 
 Note that there may be errors in my cleaned-up Russian copy ... some words in the scanned manual disappeared into the page binding!<br>
 
+Question: what on earth is "foiled lavsan" (фольгированный лавсан)?<br>
+
 In the English translation I have kept the Soviet/Russian part identifiers rather than transliterate them, but I have included Western equivalent part identifiers as well.<br>
 
 The scanned Russian manual includes the tables & diagrams referred to in the translation.  It also includes a map of the parts on the motherboard.<br>
