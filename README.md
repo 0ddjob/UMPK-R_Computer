@@ -26,5 +26,5 @@ The scanned Russian manual includes the tables & diagrams referred to in the tra
 
 I have also included some very-roughly machine translated (Google image) pages from the original Soviet RADIO magazine that explain the RK's functionality - I hope to come back and do better translations.<br>
 
-## Main ICs
-![Main ICs on the motherboard](UMPK-R_circuit_layoyut.jpg)
+## Map of ICs
+![Main ICs on the motherboard](UMPK-R_circuit_layout.jpg)
