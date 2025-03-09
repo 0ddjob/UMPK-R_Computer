@@ -22,7 +22,7 @@ Note that there may be errors in my cleaned-up Russian copy ... some words in th
 
 Question: what on earth is "foiled lavsan" (фольгированный лавсан)?<br>
 
-_"Lavsan" is a Russian trade name for a type of polyester film, chemically known as polyethylene terephthalate (PET). It is similar to materials like Mylar in Western terminology. "Фольгированный" means "foiled" or "coated with foil," indicating that the lavsan film has a thin layer of metal foil (often aluminum) applied to it. In the context of the UMPK-R keyboard device, this refers to a metallized polyester film used in the membrane keyboard construction, where the foil provides conductive tracks or contacts for key operation._<br>
+_"Lavsan" is a Russian trade name for a type of polyester film, chemically known as polyethylene terephthalate (PET). It is similar to materials like Mylar in Western terminology. "Фольгированный" means "foiled" or "coated with foil," indicating that the lavsan film has a thin layer of metal foil (often aluminum) applied to it. In the context of the УМПК-Р keyboard device, this refers to a metallized polyester film used in the membrane keyboard construction, where the foil provides conductive tracks or contacts for key operation._<br>
 
 _So, in technical terms, it could be described as "metallized polyester film" or simply "foiled PET film", depending on the context._
 
