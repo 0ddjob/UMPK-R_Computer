@@ -1,2 +1,24 @@
-# UMPK-R_Computer
- Information about the Soviet Ukrainian computer
+# УМПК-Р Computer
+Information about the Soviet Ukrainian computer based on the Soviet homebrew 8080-based computer called the [РАДИО-86РК](https://github.com/skiselev/radio-86rk).  My computer doesn't work so I need to troubleshoot, hence this work.<br>
+
+![Image of my УМПК-Р 32](UMPK-R_32.jpg)
+
+## My YouTube Videos (As of 9-Mar-2025)
+- [УМПК-Р (UMPK-R): Part 1 (First Look)](https://youtu.be/Kr2Yl7z__qQ)
+- [УМПК-Р (UMPK-R): Part 2 (Trying to get video output)](https://youtu.be/anAznSh7gso)
+- [УМПК-Р (UMPK-R): Part 3 (Video output troubleshooting continues)](https://youtu.be/vZf2vCqavNA)
+
+## English Documentation
+I have done a partial translation (thanks to Grok) of the Operation Manual - original scanned Russian, my cleaned-up Russian and the translated English manuals can be found here.  There are three file types:
+- PDF
+- Apple Pages
+- Rich Text Format
+
+Note that there may be errors in my cleaned-up Russian copy ... some words in the scanned manual disappeared into the page binding!<br>
+
+In the English translation I have kept the Soviet/Russian part identifiers rather than transliterate them, but I have included Western equivalent part identifiers as well.<br>
+
+The scanned Russian manual includes the tables & diagrams referred to in the translation.  It also includes a map of the parts on the motherboard.
+
+## Main ICs
+![Main ICs on the motherboard](UMPK-R_circuit_layoyut.jpg)
