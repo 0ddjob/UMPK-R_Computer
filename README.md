@@ -11,6 +11,7 @@ There were quite a few industrially produced clones of the RK design so understa
 - [УМПК-Р (UMPK-R): Part 1 (First Look)](https://youtu.be/Kr2Yl7z__qQ)
 - [УМПК-Р (UMPK-R): Part 2 (Trying to get video output)](https://youtu.be/anAznSh7gso)
 - [УМПК-Р (UMPK-R): Part 3 (Video output troubleshooting continues)](https://youtu.be/vZf2vCqavNA)
+- [УМПК-Р (UMPK-R): Part 4 (Faulty DRAM?)](https://youtu.be/Y1xS1cXXh0Q)
 
 ## English Documentation
 I have done a partial translation (thanks to Grok) of the Operation Manual - original scanned Russian, my cleaned-up Russian and the translated English manuals can be found here.  There are four file types:
