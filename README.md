@@ -1,6 +1,9 @@
 # УМПК-Р (UMPK-R) Computer
 Information about the Soviet Ukrainian computer based on the Soviet homebrew computer called the [РАДИО-86РК](https://github.com/skiselev/radio-86rk) (RADIO-86RK).  I'll refer to it as the "RK" (Radio Computer) for the rest of this description.  This computer utilised the Soviet equivalent of the Intel 8080A called the КР580ВМ80А.<br>
 
+УМПК-Р = Универсальный МикроПроцессорный Комплект - Радио (Universal MicroProcessor Kit - Radio)<br>
+
+
 My computer doesn't work so I need to troubleshoot, hence this translation work.  The Soviets were very good in including schematics & documentation how the computer works.<br>
 
 There were quite a few industrially produced clones of the RK design so understanding how it works can help with troubleshooting other machines.<br>
