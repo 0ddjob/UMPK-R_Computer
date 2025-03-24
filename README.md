@@ -80,4 +80,6 @@ Due to the complete lack of 14-pin 32kbit DRAMs in the West I have replaced my f
 ## [Replacement Keyboard](/Replacement_Keyboard)
 I suspect that after 40-odd years (mid-1980s to mid-2020s) that the "foiled lavan" membrane keyboard has started to malfunction.  To replace it I have designed a new board using Cherry MX keyswitches.  You will need to recover the СНП58-32 connector and the speaker from the original keyboard PCB, otherwise it uses readily available parts.<br>
 
+My initial design doesn't re-use the black, clip-on fascia - it expects you to have just the plain, naked PCB ... that's my preference.  But I guess it would be good to design one for the fascia as well ... <br>
+
 ![Replacement keyboard 3D view](UMPK-R_replacement_keyboard_3D.png)
