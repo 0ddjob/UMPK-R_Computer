@@ -82,4 +82,7 @@ I suspect that after 40-odd years (mid-1980s to mid-2020s) that the "foiled lava
 
 My initial design doesn't re-use the black, clip-on fascia - it expects you to have just the plain, naked PCB ... that's my preference.  But I guess it would be good to design one for the fascia as well ... <br>
 
+### Status
+24-Mar-2025: pending submission to PCBWAY for fabrication
+
 ![Replacement keyboard 3D view](UMPK-R_replacement_keyboard_3D.png)
