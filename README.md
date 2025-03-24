@@ -18,7 +18,7 @@ There were quite a few industrially produced clones of the RK design so understa
 - [Part 5: Progress, Maybe](https://youtu.be/lffw-Pr39o8)
 - [Part 6: Quick Troubleshooting Update](https://youtu.be/sxfEuDL6Sj8)
 
-## English Documentation
+## [English Documentation](/Documentation_ENG)
 I have done a partial translation (thanks to Grok) of the Operation Manual - original scanned Russian, my cleaned-up Russian and the translated English manuals can be found here.  There are four file types:
 - Apple Pages (native)
 - PDF
@@ -77,7 +77,7 @@ Due to the complete lack of 14-pin 32kbit DRAMs in the West I have replaced my f
 - D28   КР565РУ5Д1          32K x 1bit DRAM
 - D29   К553УД2     LM301   Op. Amp.
 ```
-## Replacement Keyboard
+## [Replacement Keyboard](/Replacement_Keyboard)
 I suspect that after 40-odd years (mid-1980s to mid-2020s) that the "foiled lavan" membrane keyboard has started to malfunction.  To replace it I have designed a new board using Cherry MX keyswitches.  You will need to recover the СНП58-32 connector and the speaker from the original keyboard PCB, otherwise it uses readily available parts.<br>
 
 ![Replacement keyboard 3D view](UMPK-R_replacement_keyboard_3D.png)
