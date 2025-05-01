@@ -17,6 +17,7 @@ There were quite a few industrially produced clones of the RK design so understa
 - [Part 4: Faulty DRAM?](https://youtu.be/Y1xS1cXXh0Q)
 - [Part 5: Progress, Maybe](https://youtu.be/lffw-Pr39o8)
 - [Part 6: Quick Troubleshooting Update](https://youtu.be/sxfEuDL6Sj8)
+- [Part 7: New Keyboard](https://youtu.be/CkGMiSZlumM)
 
 ## [English Documentation](/Documentation_ENG)
 I have done a partial translation (thanks to Grok) of the Operation Manual - original scanned Russian, my cleaned-up Russian and the translated English manuals can be found here.  There are four file types:
@@ -83,6 +84,7 @@ I suspect that after 40-odd years (mid-1980s to mid-2020s) that the "foiled lavs
 My initial design doesn't re-use the black, clip-on fascia - it expects you to have just the plain, naked PCB ... that's my preference.  But I guess it would be good to design one for the fascia as well ... <br>
 
 ### Status
-24-Mar-2025: pending submission to PCBWAY for fabrication
+24-Mar-2025: Submitted to PCBWAY for fabrication
+20-Apr-2025: Built first board, mostly okay, some revisions required
 
 ![Replacement keyboard 3D view](UMPK-R_replacement_keyboard_3D.png)
