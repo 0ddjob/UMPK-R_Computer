@@ -1,0 +1,18 @@
+Тест памяти почти полностью аналогичен тесту, описанному в журнале "Радио" 
+1986/№7. Только тест проверяет 32К памяти. В случае успешного завершения 
+тестирования зажигается светодиод "РУС/ЛАТ" и звучит звуковой сигнал. Если 
+ошибка в нижних 16К памяти, дважды звучит звуковой сигнал, если ошибка в 
+верхних 16К - звуковой сигнал звучит трижды. При этом старший байт адреса с 
+ошибкой выдаётся на канал C порта DD14.
+
+Prusak, 2010г.
+
+The memory test is almost entirely analogous to the test described in the 
+"Radio" magazine, 1986/No. 7. However, this test checks 32K of memory. Upon 
+successful completion of the testing, the "RUS/LAT" LED lights up and a sound 
+signal is emitted. If an error occurs in the lower 16K of memory, the sound 
+signal is emitted twice; if an error occurs in the upper 16K, the sound signal 
+is emitted three times. In this case, the high byte of the address with the error 
+is output to channel C of port DD14.
+
+Brett Hallen, 2025.
